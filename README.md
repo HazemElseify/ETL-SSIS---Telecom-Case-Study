@@ -2,9 +2,9 @@
 
 A telecommunications company contacted you as an ETL Consultant/Developer to do the data storage process
 
-1-For a company that has a system that saves a csv file periodically every 5 minutes, this file includes the basic data of the various transactions made by customers during a specified period of time.
+1. For a company that has a system that saves a csv file periodically every 5 minutes, this file includes the basic data of the various transactions made by customers during a specified period of time.
 
-2-The company provided you with the following table which shows the data stored in the CSV file
+2. The company provided you with the following table which shows the data stored in the CSV file
 
 ColumnName     |     DataType    |    Length   |   IsNullable    |   Sample
 ---------------|-----------------|-------------|-----------------|------------
@@ -17,7 +17,7 @@ EVENT_TYPE| String| 1 |True |1
 EVENT_TS| Timestamp| | False| 16/1/2020 7:45:43
 
 
-3- The required processing (ETL) to be completed on this data before it is stored in the database
+3. The required processing (ETL) to be completed on this data before it is stored in the database
 
 ColumnName |MappingRules  |TargetModel
 -----------|--------------|----------
@@ -32,14 +32,15 @@ LAC  |As-is, reject the record if null |LAC
 EVENT_TYPE |As-is |EVENT_TYPE
 EVENT_TS |Validate the timestamp format to be YYYY-MM-DD HH:MM:SS, reject the record if null |EVENT_TS
 
-4- records rejected movements will be stored in a separate table, with the file name being recorded as CSV
+4.  records rejected movements will be stored in a separate table, with the file name being recorded as CSV
 
-5-create audit table During the process of recording data in the database, 
+5. create audit table During the process of recording data in the database, 
 there is some additional data that needs to be recorded to ensure the quality of the data storage process
 
-6-After completing the process of storing the data in the database according to the above conditions, move the csv file to
+6. After completing the process of storing the data in the database according to the above conditions, move the csv file to
 Another folder
 
+7. reference <aref>https://www.youtube.com/playlist?list=PLcAbhg_RWLaK-lCH5GxnaVfyeGjrm3QH8
 
 
 
