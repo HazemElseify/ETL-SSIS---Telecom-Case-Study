@@ -20,6 +20,7 @@ EVENT_TS| Timestamp| | False| 16/1/2020 7:45:43
 3- The required processing (ETL) to be completed on this data before it is stored in the database
 
 ColumnName |MappingRules  |TargetModel
+-----------|--------------|----------
 ID| As-is |Transaction_id
 IMSI| As-is, reject the record if null |IMSI
 IMSI |Join with IMSI reference and get subscriber id,add -99999 if null |subscriber_id
