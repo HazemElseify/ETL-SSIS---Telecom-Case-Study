@@ -31,3 +31,19 @@ CELL |As-is, reject the record if null |CELL
 LAC  |As-is, reject the record if null |LAC
 EVENT_TYPE |As-is |EVENT_TYPE
 EVENT_TS |Validate the timestamp format to be YYYY-MM-DD HH:MM:SS, reject the record if null |EVENT_TS
+
+4- records rejected movements will be stored in a separate table, with the file name being recorded as CSV
+
+5-create audit table During the process of recording data in the database, 
+there is some additional data that needs to be recorded to ensure the quality of the data storage process
+
+6-After completing the process of storing the data in the database according to the above conditions, move the csv file to
+Another folder
+
+
+
+
+
+
+
+
