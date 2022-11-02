@@ -6,8 +6,8 @@ For a company that has a system that saves a csv file periodically every 5 minut
 
 The company provided you with the following table which shows the data stored in the CSV file
 
-ColumnName          DataType        Length      IsNullable        Sample
-ID                    Int                         False            156
+ColumnName     |     DataType    |    Length   |   IsNullable    |   Sample
+ID             |       Int       |             |    False        |    156
 IMSI                 String           9           False          310120265
 IMEI String 14 True 490154203237518
 CELL Int False 123
