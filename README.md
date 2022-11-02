@@ -5,7 +5,7 @@ A telecommunications company contacted you as an ETL Consultant/Developer to do 
 1. For a company that has a system that saves a csv file periodically every 5 minutes, this file includes the basic data of the various transactions made by customers during a specified period of time.
 
 2. The company provided you with the following table which shows the data stored in the CSV file
-
+1. 
 ColumnName     |     DataType    |    Length   |   IsNullable    |   Sample
 ---------------|-----------------|-------------|-----------------|------------
 ID             |       Int       |             |    False        |    156
@@ -18,7 +18,7 @@ EVENT_TS| Timestamp| | False| 16/1/2020 7:45:43
 
 
 3. The required processing (ETL) to be completed on this data before it is stored in the database
-
+1. 
 ColumnName |MappingRules  |TargetModel
 -----------|--------------|----------
 ID| As-is |Transaction_id
